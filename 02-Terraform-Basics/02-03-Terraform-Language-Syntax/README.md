@@ -30,7 +30,7 @@ resource "aws_instance" "ec2demo" { # BLOCK
 }
 ```
 
-## Step-03: Understand about Arguments, Attributes and Meta-Arguments.
+## Step-03: Understand Arguments, Attributes and Meta-Arguments.
 - Arguments can be `required` or `optional`
 - Attribues format looks like `resource_type.resource_name.attribute_name`
 - Meta-Arguments change a resource type's behavior (Example: count, for_each)
@@ -40,7 +40,7 @@ resource "aws_instance" "ec2demo" { # BLOCK
 - [Resource: AWS Instance Attribute Reference](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance#attributes-reference)
 - [Resource: Meta-Arguments](https://www.terraform.io/docs/language/meta-arguments/depends_on.html)
 
-## Step-04: Understand about Terraform Top-Level Blocks
+## Step-04: Understand Terraform Top-Level Blocks
 - Discuss about Terraform Top-Level blocks
   - Terraform Settings Block
   - Provider Block
